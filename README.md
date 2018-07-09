@@ -9,7 +9,7 @@ Python version = 3.6.5 <br/>
 	$ .\venv\Scripts\activate
 	
 	###### Install the required packages from the file
-	$ pip install < requirements.txt
+	$ pip install < installations.txt
 	
 	###### Talking to Postgres:
 	###### create a db
@@ -23,5 +23,8 @@ Python version = 3.6.5 <br/>
 	Run the python file:
 	$ python server.py
 	
-	Copy: http://127.0.0.1:5431/user_similarity/<user_handle>
-	eg: http://127.0.0.1:5431/user_similarity/45
+	Copy and paste the link on the browser: 
+		http://127.0.0.1:5431/user_similarity/<user_handle>
+	Example (Will provide the user similarities for user_handle=45): 
+		http://127.0.0.1:5431/user_similarity/45
+	
