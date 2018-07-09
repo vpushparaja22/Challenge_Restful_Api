@@ -4,7 +4,7 @@ System Used: Windows 10, 64 bit <br/>
 PostgreSQL version = 9.6.2 <br/>
 Python version = 3.6.5 <br/>
 
-### Create a virtual environment for the project and import the db into Postgres:
+### Create a virtual environment for the project and import the db into PostgreSQL, Edit and run the python file:
 	$ virtualenv venv
 	$ .\venv\Scripts\activate
 	
