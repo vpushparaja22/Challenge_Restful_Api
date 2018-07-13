@@ -27,7 +27,9 @@ Clone the repository:
 	$ python server.py
 	
 	Copy and paste the link on the browser: 
-		http://127.0.0.1:5431/user_similarity/<user_handle>
+		http://127.0.0.1:5431/user_score_similarity/<user_handle>
+		http://127.0.0.1:5431/user_view_similarity/<user_handle>
+		http://127.0.0.1:5431/user_interest_similarity/<user_handle>
 	Example (Will provide the user similarities for user_handle=45): 
 		http://127.0.0.1:5431/user_similarity/45
 	
