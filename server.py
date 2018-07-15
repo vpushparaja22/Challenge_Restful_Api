@@ -35,7 +35,6 @@ courses_df3 = courses_df3.fillna(-1)
 def nearestNeighborModel(df, courses_df, user_handle):
 	try:
 		user_id = sorted(df['user_handle'].unique())
-		#user_handle = int(user_handle)
 		user_handle = user_id.index(user_handle)
 		k = 10
 		similar = []
@@ -63,7 +62,7 @@ def nearestNeighborModel(df, courses_df, user_handle):
 	except:
 		return 'Try Some other Input Values'
 
-@app.route('/user_similarity_score/<int:user_handle>', methods = ['GET'])
+@app.route('/user_score_similarity/<int:user_handle>', methods = ['GET'])
 def userScoreSimilarity(user_handle):
 	result = nearestNeighborModel(df2, courses_df2, user_handle)
 	return jsonify(result)
